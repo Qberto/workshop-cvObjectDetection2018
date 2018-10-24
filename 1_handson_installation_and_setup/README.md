@@ -113,7 +113,7 @@ If you do want to go down the .proto compiler route, clone the TensorFlow models
 
 Now, from within the models directory in the cloned models repo, you can use the protoc command like so:
 
-"C:/Program Files/protoc/bin/protoc" object_detection/protos/*.proto --python_out=.
+`"C:/Program Files/protoc/bin/protoc" object_detection/protos/*.proto --python_out=.`
 
 
 ## Installation and Set-up Complete
