@@ -43,3 +43,67 @@ To activate this new environment, use the following command: `conda activate obj
 You should now see the command prompt start with the name of the environment:
 
 ![Anaconda Command Prompt](https://github.com/Qberto/cv-objectdetection-workshop-2018/blob/master/media/Capture3.PNG) 
+
+To see this and other conda environments, enter `conda env list`.
+
+To keep things organized (and safe), all of the following python package installations will occur in this 'objectdetection' conda environment. 
+
+## Step 3: Run PIP installs
+
+Pip is a package management system used to install and manage software packages written in Python. It's similar but a bit lighter than Anaconda. We will use it to install a few useful python packages for our object detection projects. 
+
+First, let's ensure that pip itself is up to date by executing: `python -m pip install --upgrade pip`. The current version of pip (as of October 23, 2018) is pip-18.1. 
+
+Next, we're going to execute a series of pip installs:
+
+- `pip install pillow`
+- `pip install lxml`
+- `pip install jupyter`
+- `pip install matplotlib`
+- `pip install opencv-python`
+- `pip install requests`
+
+ Let's now proceed to install the biggest python package yet...
+
+## Step 4: Install TensorFlow
+
+TensorFlow is Google's open source Machine Learning framework. This is the main engine for most of the object detection work we'll be doing in this exercise. 
+
+TensorFlow comes in two variants: TensorFlow-CPU and TensorFlow-GPU. Can you guess what they're intended for? 
+
+For this exercise, we'll leverage simple object detection exercises using pre-built models. We will stick with TensorFlow-CPU for now and you can progress to GPU once you are ready to kick off your new projects that require your beefy graphics card for additional horsepower. 
+
+To install TensorFlow-CPU, execute the following: `pip install --upgrade tensorflow`. This step may take a few minutes. Let's take a brief break and refill our coffee. 
+
+## Step 5: Install the ArcGIS API for Python
+
+Finally, the crucial ingredient to integrate and make all of the object detection work nicely with ArcGIS: the ArcGIS API for Python!
+
+Let's install this via a simple command: `conda install -c esri arcgis`. Conda is a little hesitant to install, so make note of the confirmation step and enter `y` when prompted. 
+
+A conda install is very similar to pip. Let's continue. 
+
+
+## Step 6: Validate Package Installations
+
+I also like to verify all of the installations succeeded by opening up a python prompt and importing each package module in python. To do this, let's execute the following command: `ipython` and run the following command for each package:
+
+Pillow: `import PIL`
+lxml: `import lxml`
+jupyter: `import tornado`
+matplotlib: `import matplotlib`
+opencv-python: `import cv2`
+TensorFlow: `import tensorflow`
+ArcGIS API for Python: `import arcgis`
+
+If all of these import statements went smoothly, exit the ipython prompt by running `exit()`. 
+
+If everything went smoothly, congratulations! Installation of the python packages is complete!
+
+## Step 7: Download the TensorFlow Object Detection API
+
+We have installed TensorFlow, the python package, but we need models and data for our exercise. We will leverage the [TensorFlow research models GitHub repository](https://github.com/tensorflow/models). 
+
+This repository comes with .proto files that need to be compiled before use, which can be a bit error-prone. To make this simple, I have already downloaded the research models into a Box folder and compiled all the .proto binaries into the needed files for our exercise. 
+
+Go to https://esri.box.com/s/g0law24h8zb5t8dn2a4qwwcsjuz4b8t2 and download the "TensorFlowModels_GIS_ANieto_181011.zip" file (1.6 GBs). This might take a few minutes, so let's take another break and refill our coffee again. If there are any access issues, I can also provide you the zip file via sneakernet (i.e. USB drive)
