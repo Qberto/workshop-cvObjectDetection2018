@@ -8,3 +8,6 @@ The general steps are outlined as follows:
 
 ![webcam detection](https://github.com/Qberto/cv-objectdetection-workshop-2018/blob/master/media/tf_workflow.jpeg) 
 
+Let's switch gears to the Machine Learning CAFO and Zebra Crossing Detection Repo to follow along!
+
+https://github.com/Qberto/ML_ObjectDetection_CAFO
