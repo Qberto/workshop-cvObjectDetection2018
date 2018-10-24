@@ -14,7 +14,7 @@ Procedure:
 
 To install Anaconda, please visit the [Anaconda downloads site](https://www.anaconda.com/download/) and download the Python 2.7 Installer.
 
-![Installer](https://github.com/Qberto/cv-objectdetection-workshop/blob/master/media/Capture1.PNG) 
+![Installer](https://github.com/Qberto/cv-objectdetection-workshop-2018/blob/master/media/Capture1.PNG) 
 
 
 
