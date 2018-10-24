@@ -106,4 +106,18 @@ We have installed TensorFlow, the python package, but we need models and data fo
 
 This repository comes with .proto files that need to be compiled before use, which can be a bit error-prone. To make this simple, I have already downloaded the research models into a Box folder and compiled all the .proto binaries into the needed files for our exercise. 
 
-Go to https://esri.box.com/s/g0law24h8zb5t8dn2a4qwwcsjuz4b8t2 and download the "TensorFlowModels_GIS_ANieto_181011.zip" file (1.6 GBs). This might take a few minutes, so let's take another break and refill our coffee again. If there are any access issues, I can also provide you the zip file via sneakernet (i.e. USB drive)
+Go to https://esri.box.com/s/g0law24h8zb5t8dn2a4qwwcsjuz4b8t2 and download and unzip the "TensorFlowModels_GIS_ANieto_181011.zip" file (1.6 GBs). This might take a few minutes, so let's take another break and refill our coffee again. If there are any access issues, I can also provide you the zip file via sneakernet (i.e. USB drive)
+
+### Note: 
+If you do want to go down the .proto compiler route, clone the TensorFlow models repo, head to the [protoc releases page](https://github.com/protocolbuffers/protobuf/releases) and download the protoc-3.6.1-win32.zip, extract it, and you will find protoc.exe in the bin directory. You can move this to something more appropriate if you like, or leave it here. I eventually put mine in program files, making a "protoc" directory and dropping it in there.
+
+Now, from within the models directory in the cloned models repo, you can use the protoc command like so:
+
+"C:/Program Files/protoc/bin/protoc" object_detection/protos/*.proto --python_out=.
+
+
+## Installation and Set-up Complete
+
+At this point, you should have the "TensorFlowModels_GIS_Anieto" directory unzipped in an easily-accessible location and all the python packages installed. 
+
+Congratulations and thank you for coming along so far! The fun part now begins. 
