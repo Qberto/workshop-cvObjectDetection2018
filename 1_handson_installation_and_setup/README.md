@@ -12,7 +12,7 @@ For this exercise, we will leverage Anaconda, a free and open source distributio
 
 ### Procedure:
 
-To install Anaconda, please visit the [Anaconda downloads site](https://www.anaconda.com/download/) and download the Python 2.7 Installer.
+To install Anaconda, please visit the [Anaconda downloads site](https://www.anaconda.com/download/) and download the Python 3.7 Installer.
 
 ![Installer](https://github.com/Qberto/cv-objectdetection-workshop-2018/blob/master/media/Capture1.PNG) 
 
