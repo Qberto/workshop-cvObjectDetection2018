@@ -88,13 +88,13 @@ A conda install is very similar to pip. Let's continue.
 
 I also like to verify all of the installations succeeded by opening up a python prompt and importing each package module in python. To do this, let's execute the following command: `ipython` and run the following command for each package:
 
-Pillow: `import PIL`
-lxml: `import lxml`
-jupyter: `import tornado`
-matplotlib: `import matplotlib`
-opencv-python: `import cv2`
-TensorFlow: `import tensorflow`
-ArcGIS API for Python: `import arcgis`
+- Pillow: `import PIL`
+- lxml: `import lxml`
+- jupyter: `import tornado`
+- matplotlib: `import matplotlib`
+- opencv-python: `import cv2`
+- TensorFlow: `import tensorflow`
+- ArcGIS API for Python: `import arcgis`
 
 If all of these import statements went smoothly, exit the ipython prompt by running `exit()`. 
 
