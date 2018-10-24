@@ -12,12 +12,12 @@ For this exercise, we will leverage Anaconda, a free and open source distributio
 
 ### Procedure:
 
-To install Anaconda, please use the version that supports Python 3.6, and can be found [at this location](https://repo.anaconda.com/archive/Anaconda3-5.2.0-Windows-x86_64.exe)
+To install Anaconda, please use the version that supports Python 3.6, and can be found [at this location](https://repo.anaconda.com/archive/Anaconda3-5.2.0-Windows-x86_64.exe).
 
-Once downloaded, run the installer and please ensure the following:
+Once downloaded, run the installer and leave the following two options **unchecked**:
 
-- When prompted, do not set PATH
-- Do not set as default Python 3.6 (unless you know why you would want to)
+- Add Anavonda to my PATH environment variable
+- Register Anaconda as my default Python 3.6
 
 Once installation is complete, confirm that you can open the Anaconda Command Prompt. 
 
