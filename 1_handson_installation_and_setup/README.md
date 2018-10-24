@@ -106,8 +106,8 @@ This repository comes with .proto files that need to be compiled before use, whi
 
 Go to https://esri.box.com/s/g0law24h8zb5t8dn2a4qwwcsjuz4b8t2 and download and unzip the "TensorFlowModels_GIS_ANieto_181011.zip" file (1.6 GBs). This might take a few minutes, so let's take another break and refill our coffee again. If there are any access issues, I can also provide you the zip file via sneakernet (i.e. USB drive)
 
-### Note: 
-If you do want to go down the .proto compiler route, clone the TensorFlow models repo, head to the [protoc releases page](https://github.com/protocolbuffers/protobuf/releases) and download the protoc-3.6.1-win32.zip, extract it, and you will find protoc.exe in the bin directory. You can move this to something more appropriate if you like, or leave it here. I eventually put mine in program files, making a "protoc" directory and dropping it in there.
+### Optinal Step: 
+If you want to go down the .proto compiler route, clone the TensorFlow models repo, head to the [protoc releases page](https://github.com/protocolbuffers/protobuf/releases) and download the protoc-3.6.1-win32.zip, extract it, and you will find protoc.exe in the bin directory. You can move this to something more appropriate if you like, or leave it here. I eventually put mine in program files, making a "protoc" directory and dropping it in there.
 
 Now, from within the models directory in the cloned models repo, you can use the protoc command like so:
 
