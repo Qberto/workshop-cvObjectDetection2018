@@ -32,7 +32,7 @@ What is a [conda environment](https://conda.io/docs/user-guide/concepts.html#con
 
 ## Step 2: Create and activate a new conda environment
 
-To create a conda environment for this exercise, we will open the Anaconda Command Prompt and enter the following command: `conda create --name objectdetection python=3.5`
+To create a conda environment for this exercise, we will open the Anaconda Command Prompt and enter the following command: `conda create --name objectdetection python=3.6`
 
 ![Anaconda Command Prompt](https://github.com/Qberto/cv-objectdetection-workshop-2018/blob/master/media/Capture4.PNG) 
 
