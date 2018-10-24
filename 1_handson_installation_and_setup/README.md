@@ -17,7 +17,7 @@ To install Anaconda, please use the version that supports Python 3.6, and can be
 Once downloaded, run the installer and please ensure the following:
 
 - When prompted, do not set PATH
-- Do not set as default Python 3.7 (unless you know why you would want to)
+- Do not set as default Python 3.6 (unless you know why you would want to)
 
 Once installation is complete, confirm that you can open the Anaconda Command Prompt. 
 
